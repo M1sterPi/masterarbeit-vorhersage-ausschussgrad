@@ -1,0 +1,17 @@
+# Daten und Ergebnisse gehoeren nicht ins Repo (Werksdaten, siehe data/README.md).
+# Alles hier entsteht beim Ausfuehren der Skripte neu.
+data/*
+!data/README.md
+runs/
+reports/
+catboost_info/
+
+# Zugangsdaten
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.ipynb_checkpoints/
